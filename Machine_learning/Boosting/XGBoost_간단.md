@@ -1,24 +1,4 @@
-전 글들이 좀 읽기 어려운 것 같아 쉽게 써보려고 합니다.
 
-전 글들 :
-
- [XGBoost에 대해(원리와 공식)
-
-저번 포스팅에 이어서 XGBoost의 원리와 왜 확장성이 높은 알고리즘인가에 대해서 포스팅 하려고 합니다! 공식의 유도와 원리에 대한 이야기이기 때문에 전 포스팅을 보고 와주세요. XGBoost: A Scalab
-
-datanovice.tistory.com](https://datanovice.tistory.com/entry/XGBoost%EC%97%90-%EB%8C%80%ED%95%B4%EC%9B%90%EB%A6%AC%EC%99%80-%EA%B3%B5%EC%8B%9D)
-
- [XGBoost: A Scalable Tree Boosting System(Carlos & Tianqi. 2016) 리뷰
-
-이번엔 XGBoost를 다루려고 합니다. 해당 논문을 읽고 정리한 내용이니 좀더 자세하고 이해하기 쉬운 설명은 다음 포스팅을 참고해주세요! 1️⃣ 서론 기계 학습과 데이터 기반 접근법이 많은 분
-
-datanovice.tistory.com](https://datanovice.tistory.com/entry/XGBoost-A-Scalable-Tree-Boosting-SystemCarlos-Tianqi-2016-%EB%A6%AC%EB%B7%B0)
-
-XGboost : Extreme Gradient Boosting입니다. 말 그래도 Gradient Boosting의 업그레이드 버전이라고 보시면 될 것 같습니다.
-
-혹시 GBM에 대해 아직 모르신다면 아래 글을 보고와주세요.
-
- [2\. Boosting : Gradient Boosting(왜 Gradient인가?)
 
 📌 Gradient Boosting Gradient Boosting은 Gradient descent와 boosting을 합친 것으로, 경사하강법과 부스팅 기법을 사용합니다. 경사하강법에서 loss인 $L(\\theta)$를 최소화하기 위해 아래와 같은 방법으로 $\\theta$
 
