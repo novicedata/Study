@@ -1,11 +1,5 @@
 
 
-📌 Gradient Boosting Gradient Boosting은 Gradient descent와 boosting을 합친 것으로, 경사하강법과 부스팅 기법을 사용합니다. 경사하강법에서 loss인 $L(\\theta)$를 최소화하기 위해 아래와 같은 방법으로 $\\theta$
-
-datanovice.tistory.com](https://datanovice.tistory.com/entry/2-Boosting-Gradient-Boosting%EC%99%9C-Gradient%EC%9D%B8%EA%B0%80)
-
-천천히 시작해 봅시다.
-
 ## 📌 최적화해야 하는 목적 함수
 
 **우리가 최적화해야 하는 목적 함수는 손실함수와 정규화항의 합으로 나타내고 아래와 같습니다. 여기서 $\\theta$는 우리가 추정해야 하는 매개변수입니다.**
