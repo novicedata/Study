@@ -10,6 +10,7 @@
 ## 📏 Basic Statistics
 
 ## 📊 Data Analyst
+* (SQL)[https://github.com/novicedata/SQL]
 
 ## 🎩 AI
 
