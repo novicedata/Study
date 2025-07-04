@@ -3,7 +3,7 @@
 
 ## 📃 Contents 📃
 ### 📏 Basic Statistics
-### 📊 Data Analyst
+### 📊 Data
 ### 🎩 AI
 ### 💻 Project
 
@@ -14,7 +14,7 @@
 * **[Distribution](https://github.com/novicedata/Study/tree/main/1Basic_Statistics/distribution)**
 * **[Bayesian](https://github.com/novicedata/Study/tree/main/1Basic_Statistics/Bayesian)**
 
-## 📊 Data Analyst
+## 📊 Data
 * **[SQL](https://github.com/novicedata/SQL)**
 
 ## 🎩 AI
