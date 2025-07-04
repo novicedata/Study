@@ -27,7 +27,9 @@
 <br>
 
 ## 🅰️ Language
-
+* **[Python](https://github.com/novicedata/Study/tree/main/4Language/Python)**
+* **[R](https://github.com/novicedata/Study/tree/main/4Language/R)**
+  * **[ggplot](https://github.com/novicedata/Study/tree/main/4Language/ggplot)**
 <br>
 
 ## 💻 Project
