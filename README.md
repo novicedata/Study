@@ -5,6 +5,7 @@
 ### 📏 Basic Statistics
 ### 📊 Data
 ### 🎩 AI
+### 🅰️ Language
 ### 💻 Project
 <br>
 
@@ -25,5 +26,8 @@
 
 <br>
 
+## 🅰️ Language
+
+<br>
 
 ## 💻 Project
