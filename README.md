@@ -23,7 +23,12 @@
 <br>
 
 ## 🎩 AI
-
+* **[ML](https://github.com/novicedata/Study/tree/main/3AI/ML)**
+  * **[CART](https://github.com/novicedata/Study/tree/main/3AI/ML/CART)**
+  * **[Ensemble](https://github.com/novicedata/Study/tree/main/3AI/ML/Ensemble)**
+  * **[Linear](https://github.com/novicedata/Study/tree/main/3AI/ML/Linear)**
+  * **[Regularization](https://github.com/novicedata/Study/tree/main/3AI/ML/Regularization)**
+  * **[Resampling](https://github.com/novicedata/Study/tree/main/3AI/ML/Resampling)**
 <br>
 
 ## 🅰️ Language
