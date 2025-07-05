@@ -29,6 +29,8 @@
   * **[Linear](https://github.com/novicedata/Study/tree/main/3AI/ML/Linear)**
   * **[Regularization](https://github.com/novicedata/Study/tree/main/3AI/ML/Regularization)**
   * **[Resampling](https://github.com/novicedata/Study/tree/main/3AI/ML/Resampling)**
+* **[DL](https://github.com/novicedata/Study/tree/main/3AI/DL)**
+  * **[PyTorch](https://github.com/novicedata/Study/tree/main/3AI/DL/Torch)**
 <br>
 
 ## 🅰️ Language
