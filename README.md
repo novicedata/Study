@@ -40,3 +40,13 @@
 <br>
 
 ## 💻 Project
+* **Portfolio**
+  * [**[공정/ML]** 제품 이상 여부 판별 모델링](https://github.com/novicedata/Projects/tree/main/LG_Aimers_5th)
+  * [**[공공/XAI]** 학교안전사고 데이터 분석 및 웹툰 제작](https://github.com/novicedata/Projects/tree/main/School_Safety)
+ 
+* **Research**
+  * **Paper**
+    * **[Grove_CAT(Computerized Adaptive Testing)](https://github.com/novicedata/Paper/tree/main/Grove_CAT)**
+    * **[MZ generation turnover]**
+ 
+  * **Conference**
