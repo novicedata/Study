@@ -3,7 +3,7 @@
 
 ## 📃 Contents 📃
 ### 📏 Basic Statistics
-### 📊 Data
+### 📊 DA
 ### 🎩 AI
 ### 🅰️ Language
 ### 💻 Project
