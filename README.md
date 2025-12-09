@@ -18,9 +18,9 @@
 * **[Bayesian](https://github.com/novicedata/Study/tree/main/1Basic_Statistics/Bayesian)**
 <br>
 
-## 📊 Data
+## 📊 DA
 * **[SQL](https://github.com/novicedata/SQL)**
-* **[Excel](https://github.com/novicedata/Study/tree/main/3Data/Excel)**
+* **[Excel](https://github.com/novicedata/Study/tree/main/3DA/Excel)**
 <br>
 
 ## 🎩 AI
