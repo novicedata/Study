@@ -20,7 +20,7 @@
 
 ## 📊 DA
 * **[SQL](https://github.com/novicedata/SQL)**
-* **[Excel](https://github.com/novicedata/Study/tree/main/3DA/Excel)**
+* **[Excel](https://github.com/novicedata/Study/tree/main/2DA/Excel)**
 <br>
 
 ## 🎩 AI
