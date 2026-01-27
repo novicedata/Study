@@ -51,6 +51,8 @@
 
 ### Tableau Prep
 
+[`Practice`](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Tableau/practice)
+
 - 데이터 정리, 변형하여 분석/시각화에 적합한 형태로 돕는 data prep 도구
 - 분석/시각화 작업 시작 전 사용
 
