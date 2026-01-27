@@ -55,10 +55,52 @@
 - 분석/시각화 작업 시작 전 사용
 
 <details>  
-  <summary>  👉 히트맵(heatmap) </summary>
+  <summary>  👉 Join, Union </summary>
   
-- 행과 열로 구성된 테이블 형태의 데이터를 색상 또는 그라데이션을 활용해 시각화
-- 여러 변수의 상호작용이나 패턴 쉽게 파악
+- Left join: 왼쪽 테이블의 모든 레코드와 일치하는 오른쪽 테이블의 레코드 출력
+- Inner join: 두 테이블 교집합 출력
+- Right join: 오른쪽 테이블의 모든 레코드와 일치하는 왼쪽 테이블의 레코드 출력
+- Full join: 두 테이블의 모든 레코드 반환
+- Union: 두 개 이상의 테이블 수직으로 연결
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/b8ccc983-a67c-44ae-b39c-14464fe8d9ae" />
+<img width="850" height="295" alt="image" src="https://github.com/user-attachments/assets/9238777a-61b6-4435-9209-a44986ad2a9b" />
+
+- In tableau prep
+  - <img width="340" height="214" alt="image" src="https://github.com/user-attachments/assets/2ffa929b-7957-4188-bc79-c84154f6edd4" />
+  - <img width="170" height="270" alt="image" src="https://github.com/user-attachments/assets/bddcabd9-cff4-4bac-b3fb-23bbbc048a5c" />
+</details>
+
+<details>  
+  <summary>  👉 Data cleaning </summary>
+  
+- 하나의 컬럼을 여러 컬럼으로 분리
+- 불필요한 공백, 특정 문자열 삭제 대체
+- 데이터 그룹화 및 필터 사용
+</details>
+
+<details>  
+  <summary>  👉 Data Pivoting </summary>
+  
+- rows to columns(pivot): 긴 형태 -> 넓은 형태
+- columns to rows(unpivot): 넓은 형태 -> 긴 형태
+
+<img width="441" height="243" alt="image" src="https://github.com/user-attachments/assets/ba588de5-8413-400a-baae-3d1068877595" />
+
+- In tableau prep
+  - <img width="223" height="308" alt="image" src="https://github.com/user-attachments/assets/0d165052-18f1-48bf-ab36-9842d7fbfe62" />
+  - <img width="441" height="230" alt="image" src="https://github.com/user-attachments/assets/3ec39517-6ada-4763-8e3f-1011a2e6ec41" />
+  - <img width="1188" height="628" alt="image" src="https://github.com/user-attachments/assets/bc0a4d6a-4297-4119-b74c-f304daad06fd" />
+</details>
+
+<details>  
+  <summary>  👉 데이터 집계 </summary>
+  
+- 주의할 점
+  - 데이터 집계하며 한 행에 무엇을 나타낼지, 세부화 수준 결정
+  - 여러 데이터 포인트를 어떻게 하나의 값으로 집계할 지(sum, average, count, max, min)
+
+- In tableau prep
+  - <img width="213" height="291" alt="image" src="https://github.com/user-attachments/assets/0f48a22a-cd10-49ba-a6a2-a288f028c5a7" />
+  - <img width="1709" height="618" alt="image" src="https://github.com/user-attachments/assets/133a7638-75fa-4981-8695-5f7507d09dea" />
+  - <img width="1716" height="624" alt="image" src="https://github.com/user-attachments/assets/826ecb9e-53e1-4820-9a63-4b98f46048c2" />
 </details>
