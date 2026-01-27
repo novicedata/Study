@@ -3,9 +3,8 @@
 
 ## 📃 Contents 📃
 ### 📏 Basic Statistics
-### 📊 DA
+### 📊 DA & Language
 ### 🎩 AI
-### 🅰️ Language
 ### 💻 Project
 <br>
 
@@ -18,9 +17,11 @@
 * **[Bayesian](https://github.com/novicedata/Study/tree/main/1Basic_Statistics/Bayesian)**
 <br>
 
-## 📊 DA
+## 📊 DA & Language
 * **[SQL](https://github.com/novicedata/SQL)**
 * **[Excel](https://github.com/novicedata/Study/tree/main/2DA/Excel)**
+* **[Python](https://github.com/novicedata/Study/tree/main/4Language/Python)**
+* **[R](https://github.com/novicedata/Study/tree/main/4Language/R)**
 <br>
 
 ## 🎩 AI
@@ -34,11 +35,6 @@
   * **[PyTorch](https://github.com/novicedata/Study/tree/main/3AI/DL/Torch)**
 <br>
 
-## 🅰️ Language
-* **[Python](https://github.com/novicedata/Study/tree/main/4Language/Python)**
-* **[R](https://github.com/novicedata/Study/tree/main/4Language/R)**
-  * **[ggplot](https://github.com/novicedata/Study/tree/main/4Language/ggplot)**
-<br>
 
 ## 💻 Project
 * **Portfolio**
