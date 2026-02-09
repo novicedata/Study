@@ -175,5 +175,106 @@
 - 이중 축: 오른쪽 부분에 끌어다 놓으면 x축 만 공유하는 이중 축 생성
   > <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/cdf87cf5-ab7b-4d86-a9b7-d4c852e9f700" />
   > <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/d0d19444-7860-4f4c-a9b0-05c1c9e7624a" />
+  - 축 편집 -> 이중축 동기화로 스케일 맞춰줄 수 있음
+    - <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/fb15452d-c7dd-4fed-b786-b1951a24ec98" />
+</details>
 
+<details>  
+  <summary>  👉 계산된 필드 만들기 </summary>
+
+- 데이터 원본에 있는 데이터에서 새 데이터 생성
+  - 데이터 분할, 유형 변환, 집계, 비율 계산 등등
+ 
+- 3가지 타입 계산 유형
+  - 기본 계산
+  - LOD(level of details) 세부 수준 식
+    - 1. 세분화된 수준(INCLUDE)
+      2. 덜 세분화된 수준(EXCLUDE)
+      3. 완전히 독립적인 수준(FIXED)
+  - 테이블 계산: 그래프에 표시된 항목 기반 계산
+ 
+- 아래를 통해 만들기 가능
+  > <img width="231" height="185" alt="image" src="https://github.com/user-attachments/assets/b84c8d62-fbde-46ca-a5a5-ba25bc6866c4" />
+  > <img width="508" height="292" alt="image" src="https://github.com/user-attachments/assets/20f9bce4-782e-4d24-94ae-792acb732a86" />
+</details>
+
+<details>  
+  <summary>  👉 테이블 계산 </summary>
+
+- 원본 데이터 기반이 아닌 현재 비주얼라이제이션에 표시된 항목을 기반으로 계산함
+  - 파티션, 방, 레이아웃, 필터가 영향을 줌
+  - <img width="444" height="254" alt="image" src="https://github.com/user-attachments/assets/f4bf9b39-17f5-4937-b224-b020525c7c00" />
+
+- 아래와 같이 계산 방식, 대상을 변경 가능
+  > <img width="406" height="540" alt="image" src="https://github.com/user-attachments/assets/7a35dbdd-7105-44d4-bbc2-7bfe1cda3f25" />
+
+</details>
+
+<details>  
+  <summary>  👉 박스플롯 </summary>
+
+- 오른쪽 위 표현방식을 이용해 가능
+  > <img width="232" height="662" alt="image" src="https://github.com/user-attachments/assets/116fd368-436a-4faf-9997-08aad1b2f08c" />
+</details>
+
+<details>  
+  <summary>  👉 LOD(level of details) </summary>
+
+- lod 계산 (데이터 원본 수준 + visualization수준)
+  : 계산할 세부 수준을 제어 가능
+
+- lod type
+  - 1. 완전히 독립 수준 (FIXED): 뷰의 차원 참조 X, 식으로 지정된 차원을 사용하여 계산
+    2. 더 세분화된 수준 (INCLUDE): 지정된 차원 + 뷰의 모든 차원 사용하여 값 계산
+    3. 덜 세분화된 수준 (EXCLUDE): 세부 수준에서 생략할 차원 선언. 구성 비율 or 전체 평균에 대한 차이가 필요한 경우 유용
+  > <img width="486" height="349" alt="image" src="https://github.com/user-attachments/assets/5befad1d-3570-4d2d-957a-872c9c275698" />
+
+- lod 식 구조문
+  - {[FIXED | INCLUDE | EXCLUDE] \<dimension declaration>:\<aggregate expression>}
+  - 위 그림 예시: {Fixed(or INCLUDE or EXCLUDE) [Region]: sum(Sales)}
+</details>
+
+<details>  
+  <summary>  👉 태블로 작업 순서 </summary>
+
+- 아래와 같은 순서로 진행되기 때문에, 원하는 시각화를 위해서는 순서에 맞게 사용해야함
+- 원하는 단계에 적절한 lod, 필터, 컨텍스트를 사용해야 함
+  > <img width="435" height="304" alt="image" src="https://github.com/user-attachments/assets/bd51edaf-cc36-45a0-80ae-30b7dfba0cca" />
+</details>
+
+<details>  
+  <summary>  👉 매개변수 </summary>
+
+- 사용자가 직접 선택 입력하는 값
+- 매개변수 만드는 단계
+  - 1. 매개변수 만들기
+    2. 뷰의 측정값을 변경하는 계산된 필드 만들기
+    3. 뷰 설정
+   
+- 예시
+  > <img width="249" height="273" alt="image" src="https://github.com/user-attachments/assets/6701e05c-fac9-4c6a-8dc3-883bba63b192" />
+  
+  > <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/c6fc4ffd-83c9-4191-a863-ec368d8ac301" />
+  
+  > <img width="236" height="122" alt="image" src="https://github.com/user-attachments/assets/f2027daa-c4ae-4264-bd63-7fa8afd2e53a" />
+  
+  > <img width="510" height="297" alt="image" src="https://github.com/user-attachments/assets/2dd87e5f-40d8-447c-87e5-04b40155ea69" />
+  
+  > <img width="209" height="406" alt="image" src="https://github.com/user-attachments/assets/2b0e8a64-319b-4038-b106-f14aa6ee15ca" />
+</details>
+
+<details>  
+  <summary>  👉 매개변수2 (시트 간 매개변수) </summary>
+
+- 시트 간에도 매개변수화가 가능
+- 아래 처럼 먼저 매개변수 만든
+  > <img width="559" height="662" alt="image" src="https://github.com/user-attachments/assets/0030d4e9-c69e-45eb-99ad-d597949fa490" />
+
+- 계산된 필드에 제목만 입력해서 확인
+  > <img width="511" height="299" alt="image" src="https://github.com/user-attachments/assets/cb9c4d24-99b9-4a71-a56a-602a4a2a8fc2" />
+
+- 필터칸에 옮긴후 사용자 지정 값에 해당 시트에 해당하는 값만 입력. 해당 방법을 시트마다 반복
+  > <img width="479" height="579" alt="image" src="https://github.com/user-attachments/assets/8d01b65b-c267-4f23-9408-dfd9fecc3ac9" />
+
+- 워크시트에서 사용
 </details>
