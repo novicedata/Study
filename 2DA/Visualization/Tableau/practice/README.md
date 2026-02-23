@@ -1,4 +1,5 @@
-# 상권 데이터 전처리 해보기
+<details> 
+  <summary> 상권 데이터 전처리 해보기 </summary>
 
 ## 1. 원하는 필드값 만 확인
 <img width="1011" height="682" alt="image" src="https://github.com/user-attachments/assets/05fa1bc2-1dc0-4130-b4ef-bed43df74e49" />
@@ -35,4 +36,28 @@
 ## 7. 추출
 <img width="249" height="345" alt="image" src="https://github.com/user-attachments/assets/68b8392e-4679-4292-a630-e902f72db13f" />
 <img width="915" height="568" alt="image" src="https://github.com/user-attachments/assets/25d29675-0555-49f3-b30e-ea896498f202" />
+</details>
+
+<details> 
+  <summary> AARRR 퍼널 대시보드 </summary>
+
+## 1. 필드 만들기
+- 영역 계산식 만들기
+- 아래와 같은 계산식을 각 4개의 속성에 따라 step 1 ~ 4로 만들어
+<img width="937" height="334" alt="image" src="https://github.com/user-attachments/assets/cdec69bc-6268-41f9-824d-c26730a3d316" />
+
+## 2. 만든 측정값을 열로
+- 만든 측정값 열로 넣은뒤 각 step별 계산 기준을 테이블(아래로)
+<img width="691" height="710" alt="image" src="https://github.com/user-attachments/assets/f46f803b-4f1a-4f0e-8079-032a21216730" />
+
+## 3. 한쪽 축을 반전
+- 축 설정에서 반전을 이용해 깔때기 모양으로
+<img width="453" height="667" alt="image" src="https://github.com/user-attachments/assets/00777e23-92af-4599-b8cd-a7ae9e454280" />
+
+## 4. 퀵 테이블 비율 차이를 확인
+- 아래와 같이 기준을 처음으로 하여, 사이트 입장부터 실제 구매까지의 비율을 확인
+<img width="317" height="467" alt="image" src="https://github.com/user-attachments/assets/5c84db58-8004-4a40-bb1f-67cc06d18615" />
+<img width="1364" height="656" alt="image" src="https://github.com/user-attachments/assets/aebf7602-7ec8-4dc9-bfc2-f60315912f6b" />
+
+</details>
 
