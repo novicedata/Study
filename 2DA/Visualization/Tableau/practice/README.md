@@ -61,3 +61,31 @@
 
 </details>
 
+<details> 
+  <summary> 코호트 별 고객 유지율 분석 </summary>
+
+## 1. 첫 구매 쿼터 계산
+- 아래와 같이 계산식 사용
+- 해당 식을 행에 넣고, 분기/불연속형으로 확인
+
+<img width="939" height="361" alt="image" src="https://github.com/user-attachments/assets/19eae8ee-79b9-4ccc-a4ac-518185a356be" />
+<img width="436" height="797" alt="image" src="https://github.com/user-attachments/assets/48afdc6d-f426-4416-b5dd-7ae160d677a4" />
+
+## 2. 쿼터 별 첫 구매자 확인, 유지율 확인
+- 쿼터 별 첫 구매자 수식 만든 후 행에 넣기
+- 후 유지율 계산식 만들어 확인
+
+<img width="929" height="216" alt="image" src="https://github.com/user-attachments/assets/550594c6-511c-4c79-8e4a-3fe916d91575" />
+<img width="461" height="71" alt="image" src="https://github.com/user-attachments/assets/60edcca8-cb18-433b-a054-704bc7eb262b" />
+<img width="523" height="112" alt="image" src="https://github.com/user-attachments/assets/b987fae7-6a99-4799-9b65-b4307ad29267" />
+
+## 3. 히트 맵 후 주문까지 얼마나 걸렸는가.
+- 마크를 이용하여 히트맵으로 보기 쉽게 확인 후
+- 아래와 같은 계산식으로 확인
+
+<img width="617" height="122" alt="image" src="https://github.com/user-attachments/assets/dea46927-dd5a-4044-aea3-b36c1145bfed" />
+<img width="1532" height="845" alt="image" src="https://github.com/user-attachments/assets/5a3b6687-5269-4e06-884e-376f98df6323" />
+
+
+
+</details>
