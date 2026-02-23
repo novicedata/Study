@@ -278,3 +278,19 @@
 
 - 워크시트에서 사용
 </details>
+
+<details>  
+  <summary>  👉 지리정보 시각 </summary>
+
+- 이중 레이어 지도: 아래처럼 경도 혹은 위도를 하나 더 끌어오면 레이어 두개가 생김
+- 새로 넣은 경도 마크를 원하는 차트로 변경
+- 마지막으로 우클릭, 이중축 클릭하면 겹쳐짐
+  > <img width="475" height="79" alt="image" src="https://github.com/user-attachments/assets/8a82c81c-84f1-465d-a2a6-14dff2a37d12" />
+  > <img width="162" height="413" alt="image" src="https://github.com/user-attachments/assets/afede15d-57ac-45ca-9065-6550b515f57d" />
+  > <img width="352" height="292" alt="image" src="https://github.com/user-attachments/assets/4d26c010-158e-4bc4-b691-ba61bcbdb311" />
+  > <img width="983" height="530" alt="image" src="https://github.com/user-attachments/assets/799dbf1f-1118-4f65-8a0e-50e8b9827999" />
+
+
+
+
+</details>
