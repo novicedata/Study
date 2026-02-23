@@ -85,7 +85,72 @@
 
 <img width="617" height="122" alt="image" src="https://github.com/user-attachments/assets/dea46927-dd5a-4044-aea3-b36c1145bfed" />
 <img width="1532" height="845" alt="image" src="https://github.com/user-attachments/assets/5a3b6687-5269-4e06-884e-376f98df6323" />
+</details>
 
+<details> 
+  <summary> 고령 인구 현황율 파악(생키 다이어그램) </summary>
 
+## 1. 데이터 전처리
+- 인구 파악에 용이하도록 성별과 인구수를 피벗
+- 시트 유니온
+
+<img width="521" height="359" alt="image" src="https://github.com/user-attachments/assets/3e858d62-eb0c-4e96-a5c7-06dc1cd9c9b2" />
+<img width="248" height="67" alt="image" src="https://github.com/user-attachments/assets/2ad2e242-efe6-459a-9958-fda7232a9252" />
+
+## 2. 차원 변경
+- 아래와 같이 계산된 필드를 이용하여 계산
+- 1부터 49까지 확인하기 위해 구간차원으로 변환(구간 1로)
+
+<img width="441" height="107" alt="image" src="https://github.com/user-attachments/assets/bb660544-5484-4811-8659-6e925810f66e" />
+<img width="356" height="548" alt="image" src="https://github.com/user-attachments/assets/fbebc550-93c1-4747-a611-7aa22d5ff2d5" />
+
+## 3. T, sigmoid, 시작/끝부, 곡선 식 만들기
+- 곡선을 만들기 위해 만들어줌
+- rank1의 같은 경우 똑같이 복제해 rank 2로 만들
+
+<img width="284" height="93" alt="image" src="https://github.com/user-attachments/assets/f1f330ab-d82a-4a23-8bb9-a13093753714" />
+<img width="263" height="91" alt="image" src="https://github.com/user-attachments/assets/d14dc3f7-0e5c-422f-a65a-6cad349ef62e" />
+<img width="351" height="88" alt="image" src="https://github.com/user-attachments/assets/8e6db6c6-248b-4526-9d14-5f954cd975c4" />
+<img width="410" height="88" alt="image" src="https://github.com/user-attachments/assets/41486b7c-baf4-461b-83f5-89c1b0b3ae96" />
+
+## 4. 시각화 준비
+- 각 테이블 요소를 알맞게 배치
+- t의 경우 구간차원으로 사용
+
+- curve의 테이블 계산으로 가서
+  - t는 특정 차원 > path
+  - rank1은 성별 -> 구별 -> path로
+  - rank2는 구별 -> 성별 -> path로
+
+<img width="608" height="462" alt="image" src="https://github.com/user-attachments/assets/b6543aef-4630-464e-a912-a613f566b0f0" />
+
+<img width="350" height="485" alt="image" src="https://github.com/user-attachments/assets/aae45382-b61a-495d-90a3-b0569ee3332d" />
+<img width="349" height="514" alt="image" src="https://github.com/user-attachments/assets/7739750a-2d0b-4bcf-8f03-c444cb7a5d96" />
+<img width="347" height="517" alt="image" src="https://github.com/user-attachments/assets/b5f6ce7a-0541-47a5-b4fd-948bc37ba30a" />
+
+<img width="676" height="711" alt="image" src="https://github.com/user-attachments/assets/93da8133-6e15-4007-bafa-6ac5aec7b7cd" />
+
+## 5. 선 크기 변경
+- 아래와 같이 계산식을 이용해 직접 크기 조정
+- 끝 부분이 이상한걸 계산 대상을 path로
+
+<img width="259" height="85" alt="image" src="https://github.com/user-attachments/assets/2ed93e17-6dbd-4378-95da-b527983a9987" />
+<img width="898" height="666" alt="image" src="https://github.com/user-attachments/assets/42192eda-620d-4f53-8216-4dfa6f9bf7e8" />
+
+## 6. 정렬
+- 이쁘게 보기 위해 성별과 구별 각각 정렬 옵션에 들어가 인구를 기준으로 정렬
+
+<img width="293" height="363" alt="image" src="https://github.com/user-attachments/assets/a83f08a4-597d-439c-960b-6371eb80ee9f" />
+
+## 7. 바 그래프
+- 양 옆에 쓰일 바 그래프를 만들기 위해 새로운 시트에 아래와 같이 적용
+- 여기서 중요한건 앞서 만든 곡선 그래프와 같이 정렬 설정해줘야함
+
+<img width="1526" height="833" alt="image" src="https://github.com/user-attachments/assets/507f4f8b-e1bc-4a95-824f-0e66278e2613" />
+<img width="1520" height="835" alt="image" src="https://github.com/user-attachments/assets/5f02f8a4-72b4-40e9-b5c3-e19618d64955" />
+
+## 8. 대시보드
+- 마지막에 본인이 원하는 스타일에 맞춰 대시보드 설정
+<img width="1691" height="810" alt="image" src="https://github.com/user-attachments/assets/a51a6977-5c12-4e7a-a06c-025a372c1cee" />
 
 </details>
