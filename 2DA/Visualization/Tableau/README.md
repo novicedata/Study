@@ -58,6 +58,10 @@
 
 ## Tableau
 
+[`퍼널 대시보드`](https://github.com/novicedata/Study/blob/main/2DA/Visualization/Tableau/practice/README.md)
+
+[`코호트 별 고객 유지율`](https://github.com/novicedata/Study/blob/main/2DA/Visualization/Tableau/practice/README.md)
+
 ### 그래프 종류
 
 <details>  
