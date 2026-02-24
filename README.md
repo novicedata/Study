@@ -22,6 +22,11 @@
 * **[Excel](https://github.com/novicedata/Study/tree/main/2DA/Excel)**
 * **[Python](https://github.com/novicedata/Study/tree/main/4Language/Python)**
 * **[R](https://github.com/novicedata/Study/tree/main/4Language/R)**
+
+<br>
+
+* **[Tableau](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Tableau)**
+* **[Redash](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Redash)**
 <br>
 
 ## 🎩 AI
