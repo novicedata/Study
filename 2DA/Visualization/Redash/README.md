@@ -2,8 +2,8 @@
 
 ## Graph
 
-- [`연습용 데이터`]
-- [`연습용 지표 쿼리`]
+- [`연습용 데이터`](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Redash/Graph/data)
+- [`연습용 지표 쿼리`](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Redash/Graph/query)
 
 <details>  
   <summary>  👉 Counter </summary>
