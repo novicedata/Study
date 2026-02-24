@@ -79,3 +79,36 @@
     > <img width="861" height="765" alt="image" src="https://github.com/user-attachments/assets/37144871-90c7-442e-af6e-3150ebdeb9ab" />
     > <img width="856" height="660" alt="image" src="https://github.com/user-attachments/assets/0e5b416d-7bd4-4e9d-8c01-3feab92d97ec" />
 </details>
+
+
+<details>  
+  <summary>  📑 [실습] 유저 행동 데이터 기반 재방문율 확인 (Cohort, AU) </summary>
+
+- 유저 1번, 5번 쿼리 사용
+
+- 코호트
+  - 데이터 자체가 더미라 나오지는 않지만 구현은 가능
+  - Date: 코호트 기준 날짜
+  - Stage: 경과 시간
+  - Bucket Population size: 각 코호트 전체 인원
+  - Stage value: 생존 수(재방문 등)
+  > <img width="369" height="367" alt="image" src="https://github.com/user-attachments/assets/205165fb-140e-49d1-b854-279ad49a9ba0" />
+  > <img width="513" height="329" alt="image" src="https://github.com/user-attachments/assets/e5f31f09-a652-4c96-bd4f-97e34489628d" />
+
+- **직접 쿼리로 피봇을 만든 후, Redash Table로 보는 것도 하나의 방법**
+- **혹은 라인으로 모니터링도 방법**
+  > <img width="871" height="420" alt="image" src="https://github.com/user-attachments/assets/a479927f-f424-45e9-ba33-56f84383db49" />
+</details>
+
+<details>  
+  <summary>  📑 [실습] 유저 행동 데이터 기반 퍼널 분석 (Funnel) </summary>
+
+- 유저 2번, 6 쿼리 사용
+- **역시 쿼리가 중요**
+
+- 아래는 그냥 Funnel 설정해주었을 때
+  > <img width="880" height="678" alt="image" src="https://github.com/user-attachments/assets/cdd4de57-7c08-4ae2-9d0e-4e30d01eaf21" />
+
+- 6번 쿼리의 경우 수기 cvr을 사용하여 Line으로 본 것
+  > <img width="869" height="416" alt="image" src="https://github.com/user-attachments/assets/c3a98ba4-7f9a-40a1-a557-0473e76181b8" />
+</details>
