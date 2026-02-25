@@ -120,19 +120,17 @@
 - [`연습용 지표 쿼리`](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Redash/Graph/query)
 
 <details>  
-  <summary>  👉 거래액 KPI </summary>
+  <summary>  👉 거래액 KPI + AB test </summary>
 
 - 매출 1 지표 사용
 
 - 사용법 자체는 쉬움. add widget으로 시각화 했던 것들 합쳐 보여주면 된다
-  > <img width="1221" height="790" alt="image" src="https://github.com/user-attachments/assets/b88bf71a-ec3d-4e04-8f9f-c4162acc6e1c" />
+  > <img width="1819" height="697" alt="image" src="https://github.com/user-attachments/assets/b9ad30a5-caeb-4255-b5e6-03945ad2e4cb" />
+
+- **이렇게 보았을 때 주문 수 자체는 늘었지만, ARPU자체는 떨어짐**
+
+- Add text를 통해 텍스트 추가 가능(마크다운 기반)
+  > <img width="500" height="466" alt="image" src="https://github.com/user-attachments/assets/d2845c94-3e3c-4437-8683-bb1f014c23b3" />
+
 </details>
 
-<details>  
-  <summary>  👉 거래액 KPI + 영향 주눈 다른 지표 추가 </summary>
-
-- 매출 1 지표 사용
-
-- 사용법 자체는 쉬움. add widget으로 시각화 했던 것들 합쳐 보여주면 된다
-  > <img width="1221" height="790" alt="image" src="https://github.com/user-attachments/assets/b88bf71a-ec3d-4e04-8f9f-c4162acc6e1c" />
-</details>
