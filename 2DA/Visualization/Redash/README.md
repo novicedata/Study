@@ -112,3 +112,27 @@
 - 6번 쿼리의 경우 수기 cvr을 사용하여 Line으로 본 것
   > <img width="869" height="416" alt="image" src="https://github.com/user-attachments/assets/c3a98ba4-7f9a-40a1-a557-0473e76181b8" />
 </details>
+
+
+## DashBoard
+
+- [`연습용 데이터`](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Redash/Graph/data)
+- [`연습용 지표 쿼리`](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Redash/Graph/query)
+
+<details>  
+  <summary>  👉 거래액 KPI </summary>
+
+- 매출 1 지표 사용
+
+- 사용법 자체는 쉬움. add widget으로 시각화 했던 것들 합쳐 보여주면 된다
+  > <img width="1221" height="790" alt="image" src="https://github.com/user-attachments/assets/b88bf71a-ec3d-4e04-8f9f-c4162acc6e1c" />
+</details>
+
+<details>  
+  <summary>  👉 거래액 KPI + 영향 주눈 다른 지표 추가 </summary>
+
+- 매출 1 지표 사용
+
+- 사용법 자체는 쉬움. add widget으로 시각화 했던 것들 합쳐 보여주면 된다
+  > <img width="1221" height="790" alt="image" src="https://github.com/user-attachments/assets/b88bf71a-ec3d-4e04-8f9f-c4162acc6e1c" />
+</details>
