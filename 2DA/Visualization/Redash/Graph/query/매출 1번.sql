@@ -5,12 +5,19 @@ with product_info as(
     from query_1 -- prorduct
 )
 
-select strftime('%Y-%m', order_timestamp) as dt
-    , sum(price) as gmv
-    , count(distinct order_id) as order_count
-    , count(distinct user_id) as order_users
-from query_3 as orders
-    left join product_info
-        on orders.product_id = product_info.product_id
-group by 1
+select *
+    , 100* (1.0*gmv/prev_gmv-1) as gmv_change --변동
+from (
+    select *, lag(gmv, 1) over(order by dt) as prev_gmv
+    from (
+        select strftime('%Y-%m', order_timestamp) as dt
+            , sum(price) as gmv
+            , count(distinct order_id) as order_count
+            , count(distinct user_id) as order_users
+        from query_3 as orders
+            left join product_info
+                on orders.product_id = product_info.product_id
+        group by 1
+    )
+)
 order by 1 desc;
