@@ -120,9 +120,9 @@
 - [`연습용 지표 쿼리`](https://github.com/novicedata/Study/tree/main/2DA/Visualization/Redash/Graph/query)
 
 <details>  
-  <summary>  👉 거래액 KPI + AB test </summary>
+  <summary>  👉 거래액 KPI </summary>
 
-- 매출 1 지표 사용
+- 매출 1, 2, 4지표 사용
 
 - 사용법 자체는 쉬움. add widget으로 시각화 했던 것들 합쳐 보여주면 된다
   > <img width="1819" height="697" alt="image" src="https://github.com/user-attachments/assets/b9ad30a5-caeb-4255-b5e6-03945ad2e4cb" />
@@ -131,6 +131,16 @@
 
 - Add text를 통해 텍스트 추가 가능(마크다운 기반)
   > <img width="500" height="466" alt="image" src="https://github.com/user-attachments/assets/d2845c94-3e3c-4437-8683-bb1f014c23b3" />
-
+  > <img width="1797" height="639" alt="image" src="https://github.com/user-attachments/assets/4a192f46-f4af-4046-a805-ecc598b54a07" />
+  > <img width="1794" height="485" alt="image" src="https://github.com/user-attachments/assets/08a01a40-9618-4662-b135-66fde1991311" />
 </details>
 
+<details>  
+  <summary>  👉 AB test 결과 대시보드 </summary>
+
+- AB Query, AB Daily 사용 
+
+- 이 또한 비교 쿼리가 중요 시각화는 어렵지 않음
+  > <img width="1795" height="483" alt="image" src="https://github.com/user-attachments/assets/72817a94-618c-4e5c-860a-009fab467a8a" />
+  > <img width="1800" height="488" alt="image" src="https://github.com/user-attachments/assets/68bd4567-9707-4e8a-9928-011a67a2750c" />
+</details>
