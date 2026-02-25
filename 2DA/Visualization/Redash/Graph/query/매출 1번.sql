@@ -8,7 +8,9 @@ with product_info as(
 select *
     , 100* (1.0*gmv/prev_gmv-1) as gmv_change --변동
 from (
-    select *, lag(gmv, 1) over(order by dt) as prev_gmv
+    select *
+    , 1.0*gmv/order_users as arpu
+    , lag(gmv, 1) over(order by dt) as prev_gmv
     from (
         select strftime('%Y-%m', order_timestamp) as dt
             , sum(price) as gmv
