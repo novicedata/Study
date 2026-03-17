@@ -50,5 +50,3 @@
   * **Paper**
     * **[Grove_CAT(Computerized Adaptive Testing)](https://github.com/novicedata/Paper/tree/main/Grove_CAT)**
     * **[MZ generation turnover](https://github.com/novicedata/Paper/tree/main/MZ_turnover)**
- 
-  * **Conference**
